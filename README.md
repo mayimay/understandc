@@ -1,1 +1,2 @@
 understand c init
+djxianxjhk
