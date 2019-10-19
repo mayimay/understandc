@@ -4,14 +4,26 @@ int main(void)
 	int a[4]={1,2,3,4};
 	int b[4];
 	int n,m;
+    char c[4];
 	do
  {
- 	n=m=0;
+
     printf("请输入4个数字\n");
-    for(int i=0;i<4;i++)
+    scanf("%s",c);
+    for (int i = 0; i < 4; ++i)
     {
-    	scanf("%d",&b[i]);
+        if(c[i] <= '9' && c[i]>='0')
+        {
+            b[i] = c[i] - '0';
+        }   /* code */
     }
+
+
+ 	n=m=0;
+    // for(int i=0;i<4;i++)
+    // {
+    // 	scanf("%s",&b[i]);
+    // }
     for(int i=0;i<4;i++)
     {
     	for(int j=0;j<4;j++)
