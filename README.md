@@ -1,2 +1,0 @@
-understand c init
-djxianxjhk
